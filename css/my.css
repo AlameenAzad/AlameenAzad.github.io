@@ -1,0 +1,159 @@
+body {
+    background-color: #02040F;
+    overflow-x: hidden;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.landing {
+    margin-top: 10vh;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(45vw);
+        opacity: 0;
+    }
+}
+
+@keyframes rotate-container {
+    0% {
+        transform:
+            perspective(1000px) translateZ(0px);
+    }
+
+    100% {
+        transform:
+            perspective(1000px) translateZ(150px);
+    }
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    background: url(../assets/intro.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.project-card {
+    cursor: pointer;
+    height: 20vh;
+    background: url(../assets/bloodline.png);
+    background-size: cover;
+    background-position: center;
+}
+.project2{
+    background: url(../assets/portal.png);
+    background-size: cover;
+    background-position: center;
+}
+.project3{
+    background: url(../assets/project-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.modal-content {
+    background-color: #002642;
+}
+
+
+@media (max-width: 576px) {
+
+    .button-sm {
+        margin-bottom: 20vh !important;
+        margin-top: 20vh !important;
+    }
+
+
+
+
+}@media (min-width: 576px) {
+
+    .modal-dialog {
+    max-width: 90%;
+}
+
+
+
+
+}
+@media (max-width: 768px) {
+
+.w-50 {
+        width: 100%!important;
+    }
+
+}
+
+.nav-color {
+    background-color: #02040F;
+}
+
+@media (min-width: 992px) {
+    .border-lg-0 {
+        border: 0 !important;
+    }
+}
+
+.project-header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url(../assets/bloodline.png);
+    background-position: center;
+    background-size: cover;
+}
+.sap{
+    background: url(../assets/portal.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.rounded-btn {
+        border-radius: 50px!important;
+}
+
+
+/*colors*/
+.yellow{
+    color: #E59500;
+}
+.bg-reddish{
+    background: #840032!important;
+}
