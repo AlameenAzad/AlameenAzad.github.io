@@ -386,3 +386,6 @@ canvas {
   right: 5px;
   bottom: 5px;
 }
+.email a{
+    color: aqua;
+}
