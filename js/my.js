@@ -1,4 +1,10 @@
+$(window).on('load', function() {
+ // code here
+
+    setTimeout(function(){$('.loader').slideUp( "slow", function(){} );}, 3000);
+});
 $(function () {
+
     $('#year').text(new Date().getFullYear());
 
     $('.navbar-nav>li>a').on('click', function () {
