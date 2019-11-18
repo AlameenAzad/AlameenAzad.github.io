@@ -90,7 +90,7 @@ canvas {
     background-position: center;
 }
 .project3{
-    background: url(../assets/project-1.png);
+    background: url(../assets/cyber-security-banner.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -152,6 +152,11 @@ canvas {
 }
 .sap{
     background: url(../assets/portal.png);
+    background-position: center;
+    background-size: cover;
+}
+.enc{
+    background: url(../assets/cyber-security-banner.jpg);
     background-position: center;
     background-size: cover;
 }
