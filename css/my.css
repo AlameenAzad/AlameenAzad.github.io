@@ -94,6 +94,11 @@ canvas {
     background-size: cover;
     background-position: center;
 }
+.project4{
+    background: url(../assets/misc.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -157,6 +162,11 @@ canvas {
 }
 .enc{
     background: url(../assets/cyber-security-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.misc{
+    background: url(../assets/misc.jpg);
     background-position: center;
     background-size: cover;
 }
