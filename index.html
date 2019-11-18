@@ -93,7 +93,7 @@
                 <h1 style="margin-top: 10%">Hello!</h1>
                 <h2>Alameen Here 👋</h2>
                 <h4>A Lead Developer<br> @ <a href="www.moonlinetravel.com">Moonline Travel LTD.</a> </h4>
-                <button class="btn  btn-light rounded-btn mb-5 mt-5 button-sm shadow">Resume <span class="rounded-circle ml-2" style="color: #840032;"><i class="fas fa-lg fa-chevron-circle-down"></i></span></button>
+                <button class="btn  btn-light rounded-btn mb-5 mt-5 button-sm shadow" data-toggle="tooltip" data-placement="right" title="Get To know details">Resume <span class="rounded-circle ml-2" style="color: #840032;"><i class="fas fa-lg fa-chevron-circle-down"></i></span></button>
             </div>
             <div class="col-6  text-right d-none d-md-block">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="404.568" height="406.555" viewBox="0 0 404.568 406.555">
@@ -151,33 +151,33 @@
                     <h1 class="text-uppercase w-100 w-md-50 mx-auto text-center  border-warning p-2 border-left border-right border-lg-0" id="toProjects">Projects</h1>
                 </div>
                 <div class="col-12 mt-5 ">
-                    <div class="row ">
+                    <div class="row player-card">
                         <div class="project-card shadow col-12 p-0 m-0 " data-toggle="modal" data-target="#bloodline">
                             <div class="row align-items-center h-100">
-                                <div class="col-12">
-                                    <h3 class="text-uppercase text-center h-100 ">Blood line</h3>
+                                <div class="col-12 content">
+                                    <h1 class="text-uppercase text-center h-100 text red" data-content="Blood line">Blood line</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 mt-5 ">
-                    <div class="row ">
+                    <div class="row player-card">
                         <div class="project-card  project2 shadow col-12 p-0 m-0 " data-toggle="modal" data-target="#sap">
                             <div class="row align-items-center h-100">
-                                <div class="col-12">
-                                    <h3 class="text-uppercase text-center h-100 ">SAP</h3>
+                                <div class="col-12 content">
+                                    <h1 class="text-uppercase text-center h-100 text red"  data-content="SAP">SAP</h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 mt-5 ">
-                    <div class="row ">
+                    <div class="row player-card">
                         <div class="project-card project3 shadow col-12 p-0 m-0 " data-toggle="modal" data-target="#enc">
                             <div class="row align-items-center h-100">
-                                <div class="col-12">
-                                    <h3 class="text-uppercase text-center h-100 ">Password Encryption</h3>
+                                <div class="col-12 content">
+                                    <h1 class="text-uppercase text-center h-100 text red"  data-content="Password Encryption">Password Encryption</h1>
                                 </div>
                             </div>
                         </div>
@@ -194,10 +194,10 @@
                             <div class="col-12 col-md-12 ">
                                 <div class="row align-items-end h-100">
                                     <div class="col-12 text-center text-md-right mb-3">
-                                        <a class="text-white" target="_blank" href="https://www.facebook.com/Alameen.A.Jasim"><i class="fab fa-facebook-square fa-2x pl-3"></i></a>
-                                        <a class="text-white" target="_blank" href="https://www.instagram.com/alameen_azad/"><i class="fab fa-instagram fa-2x pl-3"></i></a>
-                                        <a class="text-white" target="_blank" href="https://github.com/AlameenAzad"><i class="fab fa-github fa-2x pl-3"></i></a>
-                                        <a class="text-white" target="_blank" href="https://www.linkedin.com/in/alameen-azad-4a4428116/"><i class="fab fa-linkedin fa-2x pl-3 pr-4"></i></a>
+                                        <a class="text-white" target="_blank" href="https://www.facebook.com/Alameen.A.Jasim" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fab fa-facebook-square fa-2x pl-3"></i></a>
+                                        <a class="text-white" target="_blank" href="https://www.instagram.com/alameen_azad/" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram fa-2x pl-3"></i></a>
+                                        <a class="text-white" target="_blank" href="https://github.com/AlameenAzad" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fab fa-github fa-2x pl-3"></i></a>
+                                        <a class="text-white" target="_blank" href="https://www.linkedin.com/in/alameen-azad-4a4428116/" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fab fa-linkedin fa-2x pl-3 pr-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -424,5 +424,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js">
     </script>
     <script src="https://kit.fontawesome.com/105beb3485.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     <script src="js/my.js"></script>
 </body></html>
