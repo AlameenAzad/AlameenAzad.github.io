@@ -99,6 +99,11 @@ canvas {
     background-size: cover;
     background-position: center;
 }
+.project5{
+    background: url(../assets/ba.png);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -167,6 +172,11 @@ canvas {
 }
 .misc{
     background: url(../assets/misc.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ba{
+    background: url(../assets/ba.png);
     background-position: center;
     background-size: cover;
 }
